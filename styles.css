@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f4f8;
+}
+
+.progress-circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: conic-gradient(#00aaff 0% 0%, #e0e0e0 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+}
+
+.progress-text {
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+}
